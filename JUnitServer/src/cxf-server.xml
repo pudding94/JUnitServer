@@ -5,5 +5,5 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
                        http://www.springframework.org/schema/beans/spring-beans.xsd
                        http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
-    <jaxws:endpoint id="junitTestService" implementor="com.schedule.junit.service.JunitTestServiceImpl" address="/junitTestService" />
+    <jaxws:endpoint id="junitTestWebService" implementor="com.schedule.junit.service.JunitTestWebServiceImpl" address="/junitTestWebService" />
 </beans>
