@@ -8,7 +8,7 @@ public class JunitTestServiceImpl implements JunitTestService {
 	@Override
 	public String execute(String script) {
 		// TODO Auto-generated method stub
-		return "result=="+script;
+		return script+"sb";
 	}
 
 }
